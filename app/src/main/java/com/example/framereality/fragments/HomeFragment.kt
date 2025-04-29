@@ -1,4 +1,4 @@
-package com.example.framereality.fragment
+package com.flatsai.framereality.fragment
 
 import android.os.Bundle
 import android.util.Log
@@ -9,10 +9,10 @@ import android.widget.Toast
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.framereality.PropertyModel
-import com.example.framereality.R
-import com.example.framereality.adapter.PropertyHomeAdapter
-import com.example.framereality.databinding.FragmentHomeBinding
+import com.example.framereality.Models.PropertyModel
+import com.flatsai.framereality.R
+import com.example.framereality.Adapter.PropertyHomeAdapter
+import com.flatsai.framereality.databinding.FragmentHomeBinding
 import com.google.firebase.database.*
 
 class HomeFragment : Fragment() {

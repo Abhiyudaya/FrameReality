@@ -6,15 +6,15 @@ plugins {
 }
 
 android {
-    namespace = "com.example.framereality"
+    namespace = "com.flatsai.framereality"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.framereality"
+        applicationId = "com.flatsai.framereality"
         minSdk = 26
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
+        targetSdk = 35
+        versionCode = 111
+        versionName = "1.1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

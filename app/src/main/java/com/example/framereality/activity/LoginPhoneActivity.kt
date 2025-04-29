@@ -1,6 +1,5 @@
-package com.example.framereality.activity
+package com.flatsai.framereality.activity
 
-import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -12,9 +11,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import com.example.framereality.MyUtils
-import com.example.framereality.R
-import com.example.framereality.databinding.ActivityLoginPhoneBinding
+import com.flatsai.framereality.MyUtils
+import com.flatsai.framereality.R
+import com.flatsai.framereality.databinding.ActivityLoginPhoneBinding
 import com.google.firebase.FirebaseException
 import com.google.firebase.auth.*
 import com.google.firebase.database.FirebaseDatabase

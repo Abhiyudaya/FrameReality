@@ -1,4 +1,4 @@
-package com.example.framereality.activity
+package com.flatsai.framereality.activity
 
 import android.Manifest
 import android.app.Activity
@@ -24,9 +24,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.bumptech.glide.Glide
-import com.example.framereality.MyUtils
-import com.example.framereality.R
-import com.example.framereality.databinding.ActivityProfileEditBinding
+import com.flatsai.framereality.MyUtils
+import com.flatsai.framereality.R
+import com.flatsai.framereality.databinding.ActivityProfileEditBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError

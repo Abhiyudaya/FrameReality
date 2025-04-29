@@ -1,4 +1,4 @@
-package com.example.framereality
+package com.flatsai.framereality
 
 import android.content.Context
 import android.icu.text.DateFormat

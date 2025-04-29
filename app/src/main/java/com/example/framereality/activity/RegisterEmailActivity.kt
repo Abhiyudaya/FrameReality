@@ -1,4 +1,4 @@
-package com.example.framereality.activity
+package com.flatsai.framereality.activity
 
 import android.app.ProgressDialog
 import android.content.Intent
@@ -6,8 +6,8 @@ import android.os.Bundle
 import android.util.Log
 import android.util.Patterns
 import androidx.appcompat.app.AppCompatActivity
-import com.example.framereality.MyUtils
-import com.example.framereality.databinding.ActivityRegisterEmailBinding
+import com.flatsai.framereality.MyUtils
+import com.flatsai.framereality.databinding.ActivityRegisterEmailBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
 

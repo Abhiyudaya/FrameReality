@@ -1,4 +1,4 @@
-package com.example.framereality.activity
+package com.flatsai.framereality.activity
 
 import android.content.Intent
 import android.os.Bundle
@@ -13,8 +13,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.framereality.R
-import com.example.framereality.databinding.ActivityLoginEmailBinding
+import com.flatsai.framereality.R
+import com.flatsai.framereality.databinding.ActivityLoginEmailBinding
 import com.google.firebase.FirebaseNetworkException
 import com.google.firebase.auth.*
 
@@ -62,7 +62,7 @@ class LoginEmailActivity : AppCompatActivity() {
 
         binding.forgetPasswordTv.setOnClickListener { startActivity(Intent(this,ForgetPassActivity::class.java)) }
 
-        binding.noAccountTv.setOnClickListener { startActivity(Intent(this,RegisterEmailActivity::class.java)) }
+        binding.noAccountTv.setOnClickListener { startActivity(Intent(this, RegisterEmailActivity::class.java)) }
     }
 
     // Validates Email and Password Input

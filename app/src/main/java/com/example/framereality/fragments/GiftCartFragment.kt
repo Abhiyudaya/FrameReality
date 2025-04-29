@@ -1,17 +1,16 @@
-package com.example.framereality.fragments
+package com.flatsai.framereality.fragments
 
-import ModelItem
+import com.example.framereality.Models.ModelItem
 import android.os.Bundle
-import android.provider.MediaStore
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.framereality.ModelImage
-import com.example.framereality.adapter.ItemsAdapter
-import com.example.framereality.databinding.FragmentGiftCartBinding
+import com.example.framereality.Models.ModelImage
+import com.flatsai.framereality.adapter.ItemsAdapter
+import com.flatsai.framereality.databinding.FragmentGiftCartBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 

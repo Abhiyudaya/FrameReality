@@ -1,4 +1,4 @@
-package com.example.framereality
+package com.example.framereality.Adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,8 +7,9 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.bumptech.glide.Glide
-import com.example.framereality.databinding.ActivityChangePasswordBinding
-import com.example.framereality.databinding.RowImagePickedBinding
+import com.example.framereality.Models.ModelImagePicked
+import com.flatsai.framereality.R
+import com.flatsai.framereality.databinding.RowImagePickedBinding
 
 class AdapterImagePicked(
     private val context: Context,

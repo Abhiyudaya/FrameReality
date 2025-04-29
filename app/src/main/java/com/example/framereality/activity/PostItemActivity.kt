@@ -1,4 +1,4 @@
-package com.example.framereality.activity
+package com.flatsai.framereality.activity
 
 import android.Manifest
 import android.app.Activity
@@ -14,14 +14,13 @@ import android.view.Menu
 import android.widget.PopupMenu
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.example.framereality.AdapterImagePicked
-import com.example.framereality.ModelImagePicked
-import com.example.framereality.MyUtils
-import com.example.framereality.databinding.ActivityPostItemBinding
+import com.example.framereality.Adapter.AdapterImagePicked
+import com.example.framereality.Models.ModelImagePicked
+import com.flatsai.framereality.MyUtils
+import com.flatsai.framereality.databinding.ActivityPostItemBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage

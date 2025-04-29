@@ -1,4 +1,4 @@
-package com.example.framereality.activity
+package com.flatsai.framereality.activity
 
 import android.Manifest
 import android.app.Activity
@@ -16,15 +16,14 @@ import android.widget.ArrayAdapter
 import android.widget.PopupMenu
 import android.widget.RadioButton
 import androidx.activity.enableEdgeToEdge
-import androidx.activity.result.contract.ActivityResultContract
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.framereality.AdapterImagePicked
-import com.example.framereality.ModelImagePicked
-import com.example.framereality.MyUtils
-import com.example.framereality.databinding.ActivityPostAddBinding
+import com.example.framereality.Adapter.AdapterImagePicked
+import com.example.framereality.Models.ModelImagePicked
+import com.flatsai.framereality.MyUtils
+import com.flatsai.framereality.databinding.ActivityPostAddBinding
 import com.google.android.material.tabs.TabLayout
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase

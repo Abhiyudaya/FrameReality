@@ -1,4 +1,4 @@
-package com.example.framereality.adapter
+package com.example.framereality.Adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -9,8 +9,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.framereality.PropertyModel
-import com.example.framereality.R
+import com.example.framereality.Models.PropertyModel
+import com.flatsai.framereality.R
 
 class PropertyHomeAdapter(
     private val context: Context,

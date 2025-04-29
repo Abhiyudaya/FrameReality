@@ -1,4 +1,4 @@
-package com.example.framereality.activity
+package com.flatsai.framereality.activity
 
 import android.app.ProgressDialog
 import android.os.Bundle
@@ -7,9 +7,9 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.framereality.MyUtils
-import com.example.framereality.R
-import com.example.framereality.databinding.ActivityChangePasswordBinding
+import com.flatsai.framereality.MyUtils
+import com.flatsai.framereality.R
+import com.flatsai.framereality.databinding.ActivityChangePasswordBinding
 import com.google.firebase.auth.EmailAuthCredential
 import com.google.firebase.auth.EmailAuthProvider
 import com.google.firebase.auth.FirebaseAuth

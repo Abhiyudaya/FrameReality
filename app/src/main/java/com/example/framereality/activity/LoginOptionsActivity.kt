@@ -1,4 +1,4 @@
-package com.example.framereality.activity
+package com.flatsai.framereality.activity
 
 import android.app.Activity
 import android.app.ProgressDialog
@@ -7,9 +7,10 @@ import android.os.Bundle
 import android.util.Log
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.example.framereality.MyUtils
-import com.example.framereality.R
-import com.example.framereality.databinding.ActivityLoginOptionsBinding
+import com.flatsai.framereality.MyUtils
+import com.flatsai.framereality.R
+import com.flatsai.framereality.activity.LoginEmailActivity
+import com.flatsai.framereality.databinding.ActivityLoginOptionsBinding
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -64,7 +65,7 @@ class LoginOptionsActivity : AppCompatActivity() {
         }
 
         binding.loginEmailBtn.setOnClickListener{
-            startActivity(Intent(this,LoginEmailActivity::class.java)) // Navigate to email login
+            startActivity(Intent(this, LoginEmailActivity::class.java)) // Navigate to email login
         }
 
 //        binding.loginPhoneBtn.setOnClickListener{
@@ -112,7 +113,7 @@ class LoginOptionsActivity : AppCompatActivity() {
                 }
                 else{
                     // Existing user, navigate to MainActivity
-                    startActivity(Intent(this,MainActivity::class.java))
+                    startActivity(Intent(this, MainActivity::class.java))
                     finishAffinity()
                 }
             }
@@ -151,7 +152,7 @@ class LoginOptionsActivity : AppCompatActivity() {
             .addOnSuccessListener {
                 Log.d(TAG, "updateUserInfoDb: User Info saved...!")
                 progressDialog.dismiss()
-                startActivity(Intent(this,MainActivity::class.java))
+                startActivity(Intent(this, MainActivity::class.java))
                 finishAffinity()
             }
             .addOnFailureListener { e->

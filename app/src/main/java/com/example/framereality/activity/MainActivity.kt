@@ -1,21 +1,21 @@
-package com.example.framereality.activity
+package com.flatsai.framereality.activity
 
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.framereality.MyUtils
-import com.example.framereality.R
-import com.example.framereality.assets.Helper
-import com.example.framereality.databinding.ActivityMainBinding
-import com.example.framereality.fragment.HomeFragment
-import com.example.framereality.fragment.ItemsFragment
-import com.example.framereality.fragments.FavouriteListFragment
-import com.example.framereality.fragments.GiftCartFragment
-import com.example.framereality.fragments.OtherServices
-import com.example.framereality.fragments.ProfileFragment
-import com.example.framereality.fragments.RentalListFragment
+import com.flatsai.framereality.MyUtils
+import com.flatsai.framereality.R
+import com.flatsai.framereality.assets.Helper
+import com.flatsai.framereality.databinding.ActivityMainBinding
+import com.flatsai.framereality.fragment.HomeFragment
+import com.flatsai.framereality.fragment.ItemsFragment
+import com.flatsai.framereality.fragments.FavouriteListFragment
+import com.flatsai.framereality.fragments.GiftCartFragment
+import com.flatsai.framereality.fragments.OtherServices
+import com.flatsai.framereality.fragments.ProfileFragment
+import com.flatsai.framereality.fragments.RentalListFragment
 import com.google.firebase.auth.FirebaseAuth
 
 class MainActivity : AppCompatActivity() {

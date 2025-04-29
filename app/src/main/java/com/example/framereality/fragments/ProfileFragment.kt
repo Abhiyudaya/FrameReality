@@ -1,4 +1,4 @@
-package com.example.framereality.fragments
+package com.flatsai.framereality.fragments
 
 import android.app.ProgressDialog
 import android.content.Context
@@ -10,13 +10,13 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.bumptech.glide.Glide
-import com.example.framereality.MyUtils
-import com.example.framereality.R
-import com.example.framereality.activity.MainActivity
-import com.example.framereality.activity.PostAddActivity
-import com.example.framereality.activity.PostItemActivity
-import com.example.framereality.activity.ProfileEditActivity
-import com.example.framereality.databinding.FragmentProfileBinding
+import com.flatsai.framereality.MyUtils
+import com.flatsai.framereality.R
+import com.flatsai.framereality.activity.MainActivity
+import com.flatsai.framereality.activity.PostAddActivity
+import com.flatsai.framereality.activity.PostItemActivity
+import com.flatsai.framereality.activity.ProfileEditActivity
+import com.flatsai.framereality.databinding.FragmentProfileBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError

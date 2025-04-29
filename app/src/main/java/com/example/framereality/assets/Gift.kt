@@ -1,4 +1,4 @@
-package com.example.framereality.assets
+package com.flatsai.framereality.assets
 
 data class Gift(
     val id: Int,

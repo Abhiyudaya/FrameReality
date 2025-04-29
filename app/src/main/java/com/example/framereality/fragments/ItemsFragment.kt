@@ -1,6 +1,6 @@
-package com.example.framereality.fragment
+package com.flatsai.framereality.fragment
 
-import ModelItem
+import com.example.framereality.Models.ModelItem
 import android.os.Bundle
 import android.util.Log
 import android.view.LayoutInflater
@@ -8,8 +8,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.framereality.adapter.ItemsAdapter
-import com.example.framereality.databinding.FragmentGiftBinding
+import com.flatsai.framereality.adapter.ItemsAdapter
+import com.flatsai.framereality.databinding.FragmentGiftBinding
 import com.google.firebase.database.*
 
 class ItemsFragment : Fragment() {
@@ -49,7 +49,7 @@ class ItemsFragment : Fragment() {
             override fun onDataChange(snapshot: DataSnapshot) {
                 itemsList.clear()
                 for (itemSnapshot in snapshot.children) {
-                    // Assuming each child can be mapped to ModelItem
+                    // Assuming each child can be mapped to com.example.framereality.Models.ModelItem
                     val item = itemSnapshot.getValue(ModelItem::class.java)
                     if (item != null) {
                         Log.d(TAG, "Loaded item: $item")

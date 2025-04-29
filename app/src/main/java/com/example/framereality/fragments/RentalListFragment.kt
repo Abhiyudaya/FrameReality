@@ -1,4 +1,4 @@
-package com.example.framereality.fragments
+package com.flatsai.framereality.fragments
 
 import android.os.Bundle
 import android.util.Log
@@ -9,9 +9,10 @@ import android.widget.Toast
 import androidx.appcompat.widget.SearchView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.framereality.PropertyModel
-import com.example.framereality.adapter.PropertyHomeAdapter
-import com.example.framereality.databinding.FragmentRentalListBinding
+import com.example.framereality.Models.PropertyModel
+import com.example.framereality.Adapter.PropertyHomeAdapter
+import com.flatsai.framereality.databinding.FragmentRentalListBinding
+import com.flatsai.framereality.R
 import com.google.firebase.database.*
 
 class RentalListFragment : Fragment() {
@@ -46,7 +47,7 @@ class RentalListFragment : Fragment() {
         fetchPropertiesForRent()
 
         // 🟡 Setup SearchView to filter by address
-        val searchVw = requireActivity().findViewById<SearchView>(com.example.framereality.R.id.searchView)
+        val searchVw = requireActivity().findViewById<SearchView>(R.id.searchView)
         searchVw.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(query: String?): Boolean = false
             override fun onQueryTextChange(newText: String?): Boolean {

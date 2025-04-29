@@ -1,4 +1,4 @@
-package com.example.framereality
+package com.example.framereality.Models
 
 import android.net.Uri
 

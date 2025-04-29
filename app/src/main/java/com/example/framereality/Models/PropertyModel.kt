@@ -1,4 +1,4 @@
-package com.example.framereality
+package com.example.framereality.Models
 
 data class PropertyModel(
     val id: String = "",

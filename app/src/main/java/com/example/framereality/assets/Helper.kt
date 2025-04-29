@@ -1,4 +1,4 @@
-package com.example.framereality.assets
+package com.flatsai.framereality.assets
 
 import android.content.Context
 import android.util.Log

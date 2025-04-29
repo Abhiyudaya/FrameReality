@@ -1,4 +1,4 @@
-import com.example.framereality.ModelImage
+package com.example.framereality.Models
 
 data class ModelItem(
     val id: String = "",
